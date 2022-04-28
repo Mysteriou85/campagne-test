@@ -1,13 +1,13 @@
 
 let panier = [];
 
-function createarticle(nom, prix, poids, couleur, taille) {
+export function createarticle(nom, prix, poids, couleur, taille) {
     let article = { id: `${nom}_${taille}_${couleur}`, nom: nom, prix: prix, poids: poids, couleur: couleur, taille: taille }
 
     return article;
 }
 
-function ajoutPanier(produit, quantite) {
+export function ajoutPanier(produit, quantite) {
     panier.push({ produit: produit, quantite: quantite })
     //A FAIRE : doit ajouté 'if' pour vérifier si le produit exite déjà et fusionné avec produit identique
     // console.log(panier.includes(produit));
@@ -19,8 +19,9 @@ function ajoutPanier(produit, quantite) {
     // }
 }
 
-function prixTotal(panier) {
+export function prixTotal(panier) {
     let totalPrix = 0;
+    let totalPrixTCC = 0;
 
     console.log(panier);
 

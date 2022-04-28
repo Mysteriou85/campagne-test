@@ -1,0 +1,25 @@
+{
+  "name": "campagne-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testunitaire.js",
+  "type": "module",
+  "scripts": {
+    "start": "node testunitaire.js",
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mysteriou85/campagne-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mysteriou85/campagne-test/issues"
+  },
+  "homepage": "https://github.com/Mysteriou85/campagne-test#readme",
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
+}
