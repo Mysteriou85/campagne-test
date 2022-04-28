@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Mysteriou85/campagne-test#readme",
   "devDependencies": {
+    "jest": "^28.0.2",
     "should": "^13.2.3"
   }
 }

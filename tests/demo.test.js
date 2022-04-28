@@ -30,7 +30,7 @@ describe("===> ...",
         it("Cela devrait calculé le prix total",
     function() {
         debugger
-        //let panier = [];
+        let panier = [];
         let vetTest = createarticle('V-test', 10, 0.5, 'rouge', 'M');
         ajoutPanier(vetTest, 1);
         prixTotal(panier)
